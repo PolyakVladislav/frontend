@@ -1,0 +1,34 @@
+/* src/components/CurrentDayForecast.css */
+.currentForecastContainer {
+    margin-top: 1rem;
+  }
+  
+  .currentCard {
+    margin-bottom: 16px;
+    background: transparent;
+    border: none;
+  }
+  
+  .detailsCard {
+    margin-bottom: 16px;
+    background: transparent;
+    border: none;
+  }
+  
+  .hourlyCard {
+    background: transparent;
+    border: none;
+  }
+  
+  .tempValue {
+    font-weight: bold;
+  }
+  
+  .iconContainer {
+    text-align: center;
+  }
+  
+  .currentIcon {
+    max-width: 80px;
+  }
+  

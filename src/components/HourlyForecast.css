@@ -1,0 +1,14 @@
+/* src/components/HourlyForecast.css */
+.hourlyCardItem {
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  .hourlyTime {
+    font-weight: bold;
+  }
+  
+  .hourlyIcon {
+    max-width: 50px;
+  }
+  

@@ -1,0 +1,42 @@
+/* src/components/WeeklyForecastTable.css */
+.weeklyForecastContainer {
+    margin-top: 2rem;
+    padding: 1rem;
+  }
+  
+  .weeklyForecastTitle {
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .weeklyTableContainer {
+    background: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(8px);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+  }
+  
+  .weeklyTableHead {
+    background-color: rgba(255, 255, 255, 0.15);
+  }
+  
+  .weeklyTableRow {
+    cursor: pointer;
+  }
+  
+  .weeklyTableCell {
+    color: #f0f0f0;
+    font-weight: bold;
+  }
+  
+  .conditionContainer {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  .conditionIcon {
+    width: 30px;
+  }
+  
