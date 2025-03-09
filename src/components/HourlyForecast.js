@@ -1,4 +1,3 @@
-// src/components/HourlyForecast.js
 import React, { useEffect, useState } from 'react';
 import { Grid, Typography } from '@mui/material';
 import { motion, AnimatePresence } from 'framer-motion';
@@ -11,7 +10,6 @@ const HourlyForecast = ({ location }) => {
   useEffect(() => {
     const fetchHourly = async () => {
       try {
-        // Запрашиваем прогноз на 2 дня, чтобы гарантировать наличие будущих интервалов
         const res = await getForecast(location.name, 2);
         if (res.data && res.data.forecast && res.data.forecast.forecastday) {
           const allHours = res.data.forecast.forecastday.flatMap(day => day.hour);

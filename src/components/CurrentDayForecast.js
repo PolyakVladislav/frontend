@@ -1,4 +1,3 @@
-// src/components/CurrentDayForecast.js
 import React from 'react';
 import { Card, CardContent, Typography, Grid } from '@mui/material';
 import HourlyForecast from './HourlyForecast';

@@ -1,4 +1,3 @@
-// src/components/HeaderBar.js
 import React, { useState } from 'react';
 import { AppBar, Toolbar, Typography, TextField, IconButton, Box } from '@mui/material';
 import SearchIcon from '@mui/icons-material/Search';
@@ -38,7 +37,7 @@ const HeaderBar = ({ currentCity, onCityChange, onGeolocation }) => {
             value={inputValue}
             onChange={(e) => setInputValue(e.target.value)}
             onKeyPress={handleKeyPress}
-            className="searchField customInput" // добавляем customInput
+            className="searchField customInput"
           />
           <IconButton color="inherit" onClick={handleSearch}>
             <SearchIcon />

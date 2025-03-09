@@ -1,4 +1,3 @@
-// src/components/WeeklyForecastTable.js
 import React from 'react';
 import {
   Table,

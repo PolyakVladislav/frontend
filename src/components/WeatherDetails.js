@@ -1,4 +1,3 @@
-// src/components/WeatherDetails.js
 import React from 'react';
 import { Grid, Typography } from '@mui/material';
 
@@ -29,7 +28,6 @@ const WeatherDetails = ({ current }) => {
         </Typography>
         <Typography variant="body2">{current.vis_km} km</Typography>
       </Grid>
-      {/* Если нужны дополнительные детали, можно добавить */}
     </Grid>
   );
 };
